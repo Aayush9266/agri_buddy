@@ -1,4 +1,5 @@
 import 'package:agri_buddy/data/products.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
@@ -194,6 +195,10 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
             ),
           ),
           const SizedBox(height: 20),
+          FilledButton.icon(
+              onPressed: () {},
+              icon: const Icon(CupertinoIcons.money_dollar),
+              label: const Text("Your Bid")),
           FilledButton.icon(
               onPressed: () {},
               icon: const Icon(IconlyLight.bag2),

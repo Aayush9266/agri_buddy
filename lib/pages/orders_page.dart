@@ -16,6 +16,7 @@ class OrdersPage extends StatelessWidget {
       initialIndex: 0,
       child: Scaffold(
         appBar: AppBar(
+
           title: const Text("My orders"),
           bottom: TabBar(
             physics: const BouncingScrollPhysics(),

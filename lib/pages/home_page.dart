@@ -6,6 +6,8 @@ import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 
+import '../widgets/my_drawer.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -27,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _scaffoldKey,
-      drawer: const Drawer(),
+      drawer: MyDrawer(),
       appBar: AppBar(
         centerTitle: false,
         leading: IconButton.filledTonal(
@@ -86,9 +88,9 @@ class _HomePageState extends State<HomePage> {
             activeIcon: Icon(IconlyBold.home),
           ),
           BottomNavigationBarItem(
-            icon: Icon(IconlyLight.call),
-            label: "Services",
-            activeIcon: Icon(IconlyBold.call),
+            icon: Icon(IconlyLight.chat),
+            label: "ChatBox",
+            activeIcon: Icon(IconlyBold.chat),
           ),
           BottomNavigationBarItem(
             icon: Icon(IconlyLight.buy),
@@ -102,6 +104,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
+
     );
   }
 }
