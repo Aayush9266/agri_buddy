@@ -199,6 +199,7 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
               onPressed: () {},
               icon: const Icon(CupertinoIcons.money_dollar),
               label: const Text("Your Bid")),
+          const SizedBox(height: 21),
           FilledButton.icon(
               onPressed: () {},
               icon: const Icon(IconlyLight.bag2),
