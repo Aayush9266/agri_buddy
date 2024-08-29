@@ -1,7 +1,10 @@
 import 'package:agri_buddy/pages/home_page.dart';
+import 'package:agri_buddy/pages/login_page.dart';
+import 'package:agri_buddy/pages/registration.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
+
 class OnboardingPage extends StatelessWidget {
   const OnboardingPage({super.key});
 
@@ -20,7 +23,10 @@ class OnboardingPage extends StatelessWidget {
               ),
               const Spacer(),
               Text('Welcome to AgriBuddy ',
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold)),
+                  style: Theme.of(context)
+                      .textTheme
+                      .titleLarge
+                      ?.copyWith(fontWeight: FontWeight.bold)),
               const Padding(
                 padding: EdgeInsets.only(top: 30, bottom: 30),
                 child: Text(
@@ -31,15 +37,40 @@ class OnboardingPage extends StatelessWidget {
               /**/
               FilledButton.tonalIcon(
                 onPressed: () {
-                 Navigator.of(context).pushReplacement(CupertinoPageRoute(builder: (context) => const HomePage()));
+                  Navigator.of(context).pushReplacement(CupertinoPageRoute(
+                      builder: (context) => const LoginPage()));
                 },
                 icon: const Icon(IconlyLight.login),
-                label: const Text("Continue with Google"),
+                label: const Text("Buyer Login"),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              FilledButton.tonalIcon(
+                onPressed: () {
+                  Navigator.of(context).pushReplacement(CupertinoPageRoute(
+                      builder: (context) => const LoginPage()));
+                },
+                icon: const Icon(IconlyLight.login),
+                label: const Text("Farmer Login"),
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              Text("If you are a new user click below"),
+              FilledButton.tonalIcon(
+                onPressed: () {
+                  Navigator.of(context).pushReplacement(CupertinoPageRoute(
+                      builder: (context) => const RegistrationPage()));
+                },
+                icon: const Icon(IconlyLight.login),
+                label: const Text("Sign Up"),
               )
             ],
           ),
         ),
       ),
-    );;
+    );
+    ;
   }
 }
