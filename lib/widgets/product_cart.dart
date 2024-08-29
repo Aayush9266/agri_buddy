@@ -28,25 +28,27 @@ class ProductCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
-              height: 120,
-              alignment: Alignment.topRight,
-              width: double.infinity,
-              padding: const EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage(product.image),
-                  fit: BoxFit.cover,
+            Expanded(
+              child: Container(
+                height: 120,
+                alignment: Alignment.topRight,
+                width: double.infinity,
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage(product.image),
+                    fit: BoxFit.cover,
+                  ),
                 ),
-              ),
-              child: SizedBox(
-                width: 30,
-                height: 30,
-                child: IconButton.filledTonal(
-                  padding: EdgeInsets.zero,
-                  onPressed: () {},
-                  iconSize: 18,
-                  icon: const Icon(IconlyLight.bookmark),
+                child: SizedBox(
+                  width: 30,
+                  height: 30,
+                  child: IconButton.filledTonal(
+                    padding: EdgeInsets.zero,
+                    onPressed: () {},
+                    iconSize: 18,
+                    icon: const Icon(IconlyLight.bookmark),
+                  ),
                 ),
               ),
             ),

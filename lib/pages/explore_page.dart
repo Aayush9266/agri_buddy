@@ -54,7 +54,7 @@ class _ExplorePageState extends State<ExplorePage> {
           Padding(
             padding: const EdgeInsets.only(bottom: 25),
             child: SizedBox(
-              height: 170,
+              height: 180,
               child: Card(
                 color: Colors.green.shade50,
                 elevation: 0.1,
