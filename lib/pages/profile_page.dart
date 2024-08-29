@@ -1,4 +1,6 @@
+import 'package:agri_buddy/pages/onboarding_page.dart';
 import 'package:agri_buddy/pages/orders_page.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 
@@ -51,7 +53,13 @@ class ProfilePage extends StatelessWidget {
             onTap: () {},
           ),
           ListTile(
-            title: const Text("Logout"),
+            title: InkWell(
+              onTap: () {
+                Navigator.of(context).pushReplacement(CupertinoPageRoute(
+                    builder: (context) => const OnboardingPage()));
+              },
+              child: const Text("Logout"),
+            ),
             leading: const Icon(IconlyLight.logout),
             onTap: () {},
           ),

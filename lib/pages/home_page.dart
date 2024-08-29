@@ -5,6 +5,7 @@ import 'package:agri_buddy/pages/services_page.dart';
 import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -13,7 +14,12 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final pages = [const ExplorePage(), const ServicesPage(), const CartPage(), const ProfilePage()];
+  final pages = [
+    const ExplorePage(),
+    const ServicesPage(),
+    const CartPage(),
+    const ProfilePage()
+  ];
   int currentPageIndex = 0;
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -37,7 +43,8 @@ class _HomePageState extends State<HomePage> {
               "Hi Aayush 👋🏾",
               style: Theme.of(context).textTheme.titleMedium,
             ),
-            Text("Enjoy our services", style: Theme.of(context).textTheme.bodySmall)
+            Text("Enjoy our services",
+                style: Theme.of(context).textTheme.bodySmall)
           ],
         ),
         actions: [

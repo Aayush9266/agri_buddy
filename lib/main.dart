@@ -1,3 +1,7 @@
+import 'package:agri_buddy/pages/home_page.dart';
+import 'package:agri_buddy/pages/login_page.dart';
+import 'package:agri_buddy/pages/registration.dart';
+import 'package:agri_buddy/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:agri_buddy/pages/onboarding_page.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -24,6 +28,12 @@ class _MyAppState extends State<MyApp> {
         textTheme: GoogleFonts.nunitoTextTheme(),
       ),
       home: const OnboardingPage(),
+      routes: {
+        // "/": (context) => HomePage(),
+        MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.loginRoute: (context) => LoginPage(),
+        MyRoutes.registrationRoute: (context) => RegistrationPage()
+      },
     );
   }
 }
