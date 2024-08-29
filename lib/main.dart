@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:agri_buddy/pages/onboarding_page.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,35 +18,12 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.green,
-          title: Center(
-            child: Text("AgriBuddy",
-             style: TextStyle(
-               color: Colors.white,
-               fontSize: 32,
-             ),),
-          ),
-        ),
-        body: Container(
-          color: Colors.green.shade100,
-          child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text("Welcome to AgriBuddy",
-                style: TextStyle(
-                  color: Colors.black,
-
-                  fontSize: 32,
-                )
-                )
-              ],
-            ),
-          ),
-        ),
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        useMaterial3: true,
+        textTheme: GoogleFonts.nunitoTextTheme(),
       ),
+      home: const OnboardingPage(),
     );
   }
 }
