@@ -71,8 +71,13 @@ class ProductCard extends StatelessWidget {
                         text: TextSpan(
                           children: [
                             TextSpan(
-                                text: "\$${product.price}",
-                                style: Theme.of(context).textTheme.bodyLarge),
+                                text: "Rs.${product.price}",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  color: Colors.black
+                                )
+                                //Theme.of(context).textTheme.bodyLarge
+                            ),
                             TextSpan(
                                 text: "/${product.unit}",
                                 style: Theme.of(context).textTheme.bodySmall),
@@ -80,8 +85,8 @@ class ProductCard extends StatelessWidget {
                         ),
                       ),
                       SizedBox(
-                        width: 30,
-                        height: 30,
+                        width: 25,
+                        height: 25,
                         child: IconButton.filled(
                           padding: EdgeInsets.zero,
                           onPressed: () {},

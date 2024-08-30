@@ -109,7 +109,7 @@ class OrderDetailsPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 15),
                   Text(
-                    "Jessi Williams",
+                    "Riddhi Dhapke",
                     style: theme.textTheme.titleSmall
                         ?.copyWith(fontWeight: FontWeight.bold),
                   ),
@@ -120,7 +120,7 @@ class OrderDetailsPage extends StatelessWidget {
                       SizedBox(width: 5),
                       Expanded(
                         child: Text(
-                          "6844 Hall Spring Suite 134\n East Annabury, OK 42291",
+                          " Near Marine Drive\n Churchgate, Mumbai 400019",
                         ),
                       ),
                     ],

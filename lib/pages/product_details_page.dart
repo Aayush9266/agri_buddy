@@ -81,7 +81,7 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
                 text: TextSpan(
                   children: [
                     TextSpan(
-                        text: "\$${widget.product.price}",
+                        text: "Rs.${widget.product.price}",
                         style: Theme.of(context).textTheme.titleLarge),
                     TextSpan(
                         text: "/${widget.product.unit}",

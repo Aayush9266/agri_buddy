@@ -24,7 +24,7 @@ List<Product> products = [
     description:
     "rTomatoes are a popular fruit used in salads, sauces, and various dishes. They are rich in vitamins C and K and have a sweet, tangy flavour.",
     image: 'assets/tomato.png',
-    price: 2.5,
+    price: 25,
     unit: 'kg',
     rating: 4.18,
   ),
@@ -33,7 +33,7 @@ List<Product> products = [
     description:
 "Potatoes are a versatile tuber used in a wide range of dishes, from fries to mashed potatoes. They are a good source of vitamin C and potassium." ,
     image: 'assets/potato.png',
-    price: 1.2,
+    price: 12,
     unit: 'kg',
     rating: 4.0,
   ),
@@ -51,7 +51,7 @@ List<Product> products = [
     description:
     "Carrots are a root vegetable known for their bright orange colour and sweet taste. They are rich in beta-carotene, which is essential for eye health.",
     image: 'assets/carrot.png',
-    price: 1.80,
+    price: 18,
     unit: 'kg',
     rating: 4.5,
   ),

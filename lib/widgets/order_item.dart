@@ -43,7 +43,7 @@ class OrderItem extends StatelessWidget {
                 ),
                 const SizedBox(width: 5),
                 Text(
-                  "\$${totalPrice.toStringAsFixed(2)}",
+                  "Rs.${totalPrice.toStringAsFixed(2)}",
                   style: const TextStyle(
                     fontWeight: FontWeight.bold,
                   ),

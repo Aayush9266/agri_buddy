@@ -97,7 +97,7 @@ class CartItem extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\$${cartItem.price}",
+                            "Rs.${cartItem.price}",
                             style: Theme.of(context)
                                 .textTheme
                                 .titleMedium
