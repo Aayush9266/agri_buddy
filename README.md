@@ -1,4 +1,4 @@
-# agri_buddy
+# AgriBuddy
 
 A new Flutter project.
 
