@@ -1,6 +1,11 @@
 # AgriBuddy
 
-A new Flutter project.
+Farmers often struggle with market access, resulting in low income due to their dependence 
+on middlemen. To address this issue, we propose a Mobile App for Direct Market Access for 
+Farmers. This platform enables farmers to directly connect with consumers and retailers, 
+removing intermediaries and ensuring fairer prices for their produce. The app will offer 
+features like product listing, price negotiations, and transaction management, all within a 
+user-friendly interface tailored to farmers' needs.
 
 ## Getting Started
 
