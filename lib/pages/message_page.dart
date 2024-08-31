@@ -45,13 +45,23 @@ class _ChatPageState extends State<ChatPage> {
         toolbarHeight: 70,
         title: Row(
           children: [
-            IconButton(
-              icon: Icon(Icons.arrow_back_ios),
-              onPressed: () {
-                Navigator.of(context).pushReplacement(CupertinoPageRoute(
-                    builder: (context) => const HomePage()));
-              },
+            BackButton(
+                onPressed: () {
+                  Navigator.of(context).pushAndRemoveUntil(
+                    MaterialPageRoute(
+                      builder: (context) => const HomePage(initialPageIndex: 1),
+                    ),
+                        (Route<dynamic> route) => false,
+                  );
+                }
             ),
+            // IconButton(
+            //   icon: Icon(Icons.arrow_back_ios),
+            //   onPressed: () {
+            //     Navigator.of(context).pushReplacement(CupertinoPageRoute(
+            //         builder: (context) => const HomePage()));
+            //   },
+            // ),
             CircleAvatar(
               radius: 20,
               backgroundImage: AssetImage("assets/pfp.png")

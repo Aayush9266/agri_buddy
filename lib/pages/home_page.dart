@@ -9,7 +9,9 @@ import 'package:flutter_iconly/flutter_iconly.dart';
 import '../widgets/my_drawer.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+  final int initialPageIndex;
+
+  const HomePage({super.key, this.initialPageIndex = 0});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -20,10 +22,17 @@ class _HomePageState extends State<HomePage> {
     const ExplorePage(),
     const ServicesPage(),
     const CartPage(),
-    const ProfilePage()
+    const ProfilePage(),
   ];
-  int currentPageIndex = 0;
+
+  late int currentPageIndex;
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
+  @override
+  void initState() {
+    super.initState();
+    currentPageIndex = widget.initialPageIndex;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -104,7 +113,6 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-
     );
   }
 }
