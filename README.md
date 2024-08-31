@@ -28,8 +28,8 @@ user-friendly interface tailored to farmers' needs.
 - [Order Module](#OrderScreen)
 - [Detail Module](#DetailScreen)
 
-## IntroScreen
-<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/intro.jpg" height="500">
+## IntroScreen/LoginPage/SignUpPage
+<img src="https://github.com/Aayush9266/agri_buddy/blob/master/ss/5.jpg" height="500">
 
 ## LoginScreen
 <img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/login.jpg" height="500">
