@@ -40,9 +40,9 @@ user-friendly interface tailored to farmers' needs.
 <img src="https://github.com/Aayush9266/agri_buddy/blob/master/ss/1.jpg" height="500">
 
 ## DemoVideo
-[![Watch the video](https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg)](https://www.youtube.com/embed/<VIDEO_ID>)
+[![Watch the video]](https://drive.google.com/file/d/1U-JbAhKItjcvTNbt4drbsHm7j2D17uFT/view?usp=drive_link)
 
 [<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
-/>](https://www.youtube.com/embed/<VIDEO_ID>)
+/>]([https://www.youtube.com/embed/<VIDEO_ID>](https://drive.google.com/file/d/1U-JbAhKItjcvTNbt4drbsHm7j2D17uFT/view?usp=drive_link))
 
 
