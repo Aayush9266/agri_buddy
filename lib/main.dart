@@ -37,6 +37,7 @@ class _MyAppState extends State<MyApp> {
         MyRoutes.farmerHome: (context) => FarmerLoginPage(),
         MyRoutes.registrationRoute: (context) => RegistrationPage(),
         MyRoutes.farmerhomePage: (context) => FarmerHomePage(),
+        MyRoutes.onboardingPage: (context) => OnboardingPage(),
       },
     );
   }

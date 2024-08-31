@@ -7,4 +7,5 @@ class MyRoutes {
   static String categoriesPage = "/categories";
   static String farmerHome = "/farmerhome";
   static String farmerhomePage = "/farmerhomepage";
+  static String onboardingPage = "/onboarding";
 }

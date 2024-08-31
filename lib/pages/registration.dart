@@ -19,7 +19,7 @@ class _LoginPageState extends State<RegistrationPage> {
         changeButton = true;
       });
 
-      await Navigator.pushNamed(context, MyRoutes.loginRoute);
+      await Navigator.pushNamed(context, MyRoutes.onboardingPage);
       setState(() {
         changeButton = false;
       });
