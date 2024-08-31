@@ -20,14 +20,16 @@ user-friendly interface tailored to farmers' needs.
 - [x] Dart: Programming language for the app
 - [x] Firebase: Cloud-based backend support
 
+## Demo Video
+[![Click here for demo video]](https://drive.google.com/file/d/1U-JbAhKItjcvTNbt4drbsHm7j2D17uFT/view?usp=drive_link)
+
 ## Screens
 - [IntroScreen/LoginPage/SignUpPage Module](#IntroScreen/LoginPage/SignUpPage)
 - [Buyer'sHomePage Module](#Buyer'sHomePage)
 - [FarmersHomePage Module](#FarmersHomePage)
 - [ChatBox Module](#ChatBox)
 
-## DemoVideo
-[![Click here for demo video]](https://drive.google.com/file/d/1U-JbAhKItjcvTNbt4drbsHm7j2D17uFT/view?usp=drive_link)
+
 
 ## IntroScreen/LoginPage/SignUpPage
 <img src="https://github.com/Aayush9266/agri_buddy/blob/master/ss/5.jpg" height="500">
