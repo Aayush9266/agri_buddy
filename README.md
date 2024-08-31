@@ -15,16 +15,35 @@ user-friendly interface tailored to farmers' needs.
 - [x] Customer Service: A dedicated customer service feature is integrated to assist both farmers and buyers with any issues or queries, ensuring smooth operations.
 
 
+## Tehnology Used
+- [x] Flutter: Frontend mobile app development
+- [x] Dart: Programming language for the app
+- [x] Firebase: Cloud-based backend support
+
+## Screens
+- [Intro Module](#IntroScreen)
+- [Login Module](#LoginScreen)
+- [Home Module](#HomeScreen)
+- [Profile Module](#ProfileScreen)
+- [Order Module](#OrderScreen)
+- [Detail Module](#DetailScreen)
+
+## IntroScreen
+<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/intro.jpg" height="500">
+
+## LoginScreen
+<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/login.jpg" height="500">
+
+## HomeScreen
+<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/home.jpg" height="500">
+
+## ProfileScreen
+<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/profile.jpg" height="500">
+
+## OrderScreen
+<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/order.jpg" height="500">
+
+## DetailScreen
+<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/detail.jpg" height="500">
 
 
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
