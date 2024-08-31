@@ -1,4 +1,4 @@
-import 'package:agri_buddy/pages/home_page.dart';
+import 'package:agri_buddy/pages/farmer_login_page.dart';
 import 'package:agri_buddy/pages/login_page.dart';
 import 'package:agri_buddy/pages/registration.dart';
 import 'package:flutter/cupertino.dart';
@@ -49,7 +49,7 @@ class OnboardingPage extends StatelessWidget {
               FilledButton.tonalIcon(
                 onPressed: () {
                   Navigator.of(context).pushReplacement(CupertinoPageRoute(
-                      builder: (context) => const LoginPage()));
+                      builder: (context) => const FarmerLoginPage()));
                 },
                 icon: const Icon(IconlyLight.login),
                 label: const Text("Farmer Login"),

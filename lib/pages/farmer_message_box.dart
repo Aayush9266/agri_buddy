@@ -1,11 +1,11 @@
-import 'package:agri_buddy/pages/home_page.dart';
-import 'package:agri_buddy/pages/services_page.dart';
+import 'package:agri_buddy/pages/farmer_home_page.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 
-class MessagePage extends StatelessWidget {
-  const MessagePage({super.key});
+class FarmerMessageBox extends StatelessWidget {
+  const FarmerMessageBox({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -40,9 +40,7 @@ class _ChatPageState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: true,
         backgroundColor: Colors.deepPurple.shade400 ,
-
         elevation: 0,
         toolbarHeight: 70,
         title: Row(
@@ -51,24 +49,13 @@ class _ChatPageState extends State<ChatPage> {
                 onPressed: () {
                   Navigator.of(context).pushAndRemoveUntil(
                     MaterialPageRoute(
-                      builder: (context) => const HomePage(initialPageIndex: 1),
+                      builder: (context) => const FarmerHomePage(initialPageIndex: 1),
                     ),
                         (Route<dynamic> route) => false,
                   );
                 }
 
             ),
-            // BackButton(
-            //     onPressed: () {
-            //       Navigator.of(context).pushAndRemoveUntil(
-            //         MaterialPageRoute(
-            //           builder: (context) => const HomePage(initialPageIndex: 1),
-            //         ),
-            //             (Route<dynamic> route) => false,
-            //       );
-            //     }
-            //
-            // ),
             // IconButton(
             //   icon: Icon(Icons.arrow_back_ios),
             //   onPressed: () {
@@ -77,12 +64,12 @@ class _ChatPageState extends State<ChatPage> {
             //   },
             // ),
             CircleAvatar(
-              radius: 20,
-              backgroundImage: AssetImage("assets/pfp.png")
+                radius: 20,
+                backgroundImage: AssetImage("assets/pfp.png")
             ),
             SizedBox(width: 10),
             Text(
-              "Farmer's Name",
+              "Customer's Name",
               style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ],

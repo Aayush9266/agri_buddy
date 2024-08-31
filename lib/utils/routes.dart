@@ -5,4 +5,6 @@ class MyRoutes {
   static String messagePage = "/messages";
   static String servicesPage = "/services";
   static String categoriesPage = "/categories";
+  static String farmerHome = "/farmerhome";
+  static String farmerhomePage = "/farmerhomepage";
 }

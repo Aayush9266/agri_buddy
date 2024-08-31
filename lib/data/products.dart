@@ -22,7 +22,7 @@ List<Product> products = [
   const Product(
     name: "Tomatoes",
     description:
-    "rTomatoes are a popular fruit used in salads, sauces, and various dishes. They are rich in vitamins C and K and have a sweet, tangy flavour.",
+    "Tomatoes are a popular fruit used in salads, sauces, and various dishes. They are rich in vitamins C and K and have a sweet, tangy flavour.",
     image: 'assets/tomato.png',
     price: 25,
     unit: 'kg',
@@ -52,6 +52,51 @@ List<Product> products = [
     "Carrots are a root vegetable known for their bright orange colour and sweet taste. They are rich in beta-carotene, which is essential for eye health.",
     image: 'assets/carrot.png',
     price: 18,
+    unit: 'kg',
+    rating: 4.5,
+  ),
+  const Product(
+    name: "Apple",
+    description:
+    "Fresh, juicy apples sourced directly from orchards. Ideal for snacks, cooking, and baking.",
+    image: 'assets/apple.png',
+    price: 90,
+    unit: 'kg',
+    rating: 4.5,
+  ),
+  const Product(
+    name: "Banana",
+    description:
+    "Ripe and sweet bananas, perfect for smoothies, snacks, or baking. High in potassium.",
+    image: 'assets/banana.png',
+    price: 25,
+    unit: 'dozen',
+    rating: 4.5,
+  ),
+  const Product(
+    name: "Peas",
+    description:
+    "Fresh green peas, harvested at peak season. Ideal for soups, salads, and side dishes.",
+    image: 'assets/peas.png',
+    price: 40,
+    unit: 'kg',
+    rating: 4.5,
+  ),
+  const Product(
+    name: "Grapes",
+    description:
+    "Sweet and succulent grapes, perfect for snacking or adding to fruit salads. Seedless variety.",
+    image: 'assets/grapes.png',
+    price: 70,
+    unit: 'kg',
+    rating: 5.0,
+  ),
+  const Product(
+    name: "Spinach",
+    description:
+    "Fresh and tender spinach leaves, rich in iron and vitamins. Great for salads, smoothies, and cooking.",
+    image: 'assets/spinach.png',
+    price: 20,
     unit: 'kg',
     rating: 4.5,
   ),

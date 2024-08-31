@@ -115,7 +115,7 @@ class _LoginPageState extends State<RegistrationPage> {
                       height: 30.0,
                     ),
                     Material(
-                      color: const Color.fromARGB(255, 3, 126, 32),
+                      color: Colors.deepPurple.shade400 ,
                       borderRadius:
                           BorderRadius.circular(changeButton ? 20 : 8),
                       child: InkWell(

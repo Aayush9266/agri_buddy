@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 position: badges.BadgePosition.topEnd(top: -15, end: -12),
                 badgeStyle: const badges.BadgeStyle(
-                  badgeColor: Colors.green,
+                  badgeColor: Colors.deepPurple,
                 ),
                 child: const Icon(IconlyBroken.notification),
               ),

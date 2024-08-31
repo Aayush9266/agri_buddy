@@ -56,9 +56,9 @@ class _ExplorePageState extends State<ExplorePage> {
             child: SizedBox(
               height: 180,
               child: Card(
-                color: Colors.green.shade50,
+                color: Colors.deepPurple.shade50,
                 elevation: 0.1,
-                shadowColor: Colors.green.shade50,
+                shadowColor: Colors.deepPurple.shade50 ,
                 child: Padding(
                   padding: const EdgeInsets.all(12),
                   child: Row(
@@ -72,7 +72,7 @@ class _ExplorePageState extends State<ExplorePage> {
                             Text(
                               "Free consultation",
                               style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                                color: Colors.green.shade700,
+                                color: Colors.deepPurple.shade400 ,
                               ),
                             ),
                             const Text("Get free support from our customer service"),
