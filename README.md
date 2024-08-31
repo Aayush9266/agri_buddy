@@ -39,6 +39,10 @@ user-friendly interface tailored to farmers' needs.
 ## ChatBox
 <img src="https://github.com/Aayush9266/agri_buddy/blob/master/ss/1.jpg" height="500">
 
+## DemoVideo
+[![Watch the video](https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg)](https://www.youtube.com/embed/<VIDEO_ID>)
 
+[<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/<VIDEO_ID>)
 
 
