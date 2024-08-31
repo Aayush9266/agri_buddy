@@ -7,7 +7,16 @@ removing intermediaries and ensuring fairer prices for their produce. The app wi
 features like product listing, price negotiations, and transaction management, all within a 
 user-friendly interface tailored to farmers' needs.
 
-## Getting Started
+## Features
+- [x] Product Listings: Farmers can easily upload their produce, with details like quantity, price, and quality.
+- [x] Negotiation Tools: Built-in features allow direct communication between farmers and buyers for real-time price negotiations.
+- [x] One-on-One Conversations: Farmers and buyers can engage in direct, private chat sessions to discuss product details, negotiate deals, and build a strong rapport.
+- [x] Ratings and Reviews: Buyers can leave feedback, helping farmers build trust and establish reputations based on the quality of their produce.
+- [x] Customer Service: A dedicated customer service feature is integrated to assist both farmers and buyers with any issues or queries, ensuring smooth operations.
+
+
+
+
 
 This project is a starting point for a Flutter application.
 
