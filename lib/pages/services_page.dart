@@ -116,54 +116,8 @@ class _ServicesPageState extends State<ServicesPage> {
               ],
             ),
           ),
-          SizedBox(
-            height: 5,
-          ),
-          SizedBox(height: 400,),
-          Container(
 
-            //alignment: AlignmentDirectional(100, 100),
-            child: Row(
-              children: [
-                Expanded(
-                  flex : 3,
-                  child: SizedBox(width: 100
-                    ,),
-                ),
-                Expanded(
-                  flex: 1,
-                  child: TextButton(
-                    onPressed: (){
 
-                    },
-                    child: CircleAvatar(
-                    
-                       radius: 35,
-                        child: Column(
-                          children: [
-                            Expanded(
-                              flex: 3,
-                              child: Icon(Icons.message ,
-                              size: 40,),
-                            ),
-                            Expanded(
-                              flex: 1,
-                              child: Text("New Chat",
-                              style: TextStyle(
-                                fontSize: 8,
-                              ),),
-                            )
-                          ],
-                        ),
-                    
-                      foregroundColor: Colors.green,
-                    
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          )
         ],
       )
     );
