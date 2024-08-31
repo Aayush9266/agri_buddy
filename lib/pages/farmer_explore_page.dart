@@ -46,7 +46,7 @@ class _FarmerExplorePageState extends State<FarmerExplorePage> {
                       right: 10,
                       child: IconButton(
                         icon: const Icon(Icons.remove_circle,
-                            color: Colors.green),
+                            color: Colors.deepPurple),
                         onPressed: () {
                           setState(() {
                             displayedProducts.removeAt(index);
