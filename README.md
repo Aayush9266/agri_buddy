@@ -21,29 +21,24 @@ user-friendly interface tailored to farmers' needs.
 - [x] Firebase: Cloud-based backend support
 
 ## Screens
-- [Intro Module](#IntroScreen)
-- [Login Module](#LoginScreen)
-- [Home Module](#HomeScreen)
-- [Profile Module](#ProfileScreen)
-- [Order Module](#OrderScreen)
-- [Detail Module](#DetailScreen)
+- [IntroScreen/LoginPage/SignUpPage Module](#IntroScreen/LoginPage/SignUpPage)
+- [Buyer'sHomePage Module](#Buyer'sHomePage)
+- [FarmersHomePage Module](#FarmersHomePage)
+- [ChatBox Module](#ChatBox)
+
 
 ## IntroScreen/LoginPage/SignUpPage
 <img src="https://github.com/Aayush9266/agri_buddy/blob/master/ss/5.jpg" height="500">
 
-## LoginScreen
-<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/login.jpg" height="500">
+## Buyer'sHomePage
+<img src="https://github.com/Aayush9266/agri_buddy/blob/master/ss/3.jpg" height="500">
 
-## HomeScreen
-<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/home.jpg" height="500">
+## FarmersHomePage
+<img src="https://github.com/Aayush9266/agri_buddy/blob/master/ss/4.jpg" height="500">
 
-## ProfileScreen
-<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/profile.jpg" height="500">
+## ChatBox
+<img src="https://github.com/Aayush9266/agri_buddy/blob/master/ss/1.jpg" height="500">
 
-## OrderScreen
-<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/order.jpg" height="500">
 
-## DetailScreen
-<img src="https://github.com/webaddicted/E-Commerce-Disinfectant/raw/main/screenshot/detail.jpg" height="500">
 
 
